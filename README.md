@@ -221,34 +221,6 @@ go_gc_duration_seconds
 go_memstats_gc_cpu_fraction
 ```
 
-## 🚀 Production Considerations
-
-### Security
-- Change default Grafana credentials
-- Configure authentication for Prometheus
-- Use HTTPS in production
-- Implement rate limiting
-
-### Scaling
-- Configure Prometheus retention policies
-- Set up alerting rules
-- Consider Grafana data source clustering
-- Implement log aggregation
-
-### Monitoring
-- Set up alerting for high error rates
-- Monitor resource usage trends
-- Configure notification channels
-- Create SLA dashboards
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
